@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class Main {
 
+    //Aquí nos va a crear una funcion para contar los numeros primos de una matriz
+
+
     public static int numerosprimos(int[] matriz){
         int contador = 0;
         int[] primos = new int[matriz.length];
@@ -17,7 +20,7 @@ public class Main {
         return contador;
     }
 
-
+//Es el main que utiliza la función creada anteriormente
 
     public static void main(String[] args) {
 
